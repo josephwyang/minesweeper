@@ -1,0 +1,12 @@
+h1, div, p, ul, li {
+  margin: 0px;
+  padding: 0px;
+  font: inherit;
+  font-size: 10px;
+  color: inherit;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
