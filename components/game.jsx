@@ -6,7 +6,7 @@ export default class Game extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      board: new Minesweeper.Board(9, 13)
+      board: new Minesweeper.Board(11, 13)
     }
   }
 
@@ -22,7 +22,7 @@ export default class Game extends React.Component {
 
   restartGame(e) {
     e.preventDefault();
-    this.setState({board: new Minesweeper.Board(9,13)})
+    this.setState({board: new Minesweeper.Board(11,13)})
   }
 
   render() {

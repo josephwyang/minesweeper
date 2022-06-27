@@ -1,15 +1,16 @@
 body {
-  width: 450px;
+  width: 550px;
   margin: 0px auto;
-  letter-spacing: 2px;
+  color: gray;
+  letter-spacing: 1.5px;
 }
 
 h1 {
   width: 100%;
-  margin: 75px 0px 40px 0px;
+  margin: 75px 0px 30px 0px;
   letter-spacing: 4px;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
   background: linear-gradient(to right, black, whitesmoke 50%, gray 50%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -26,12 +27,12 @@ h1:hover {
 .minesweeper > p {
   width: 100%;
   font-size: 14px;
-  margin: 10px 0px;
+  margin: 5px 0px;
   text-align: center;
 }
 
 .minesweeper > p:last-of-type {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #board {
@@ -65,7 +66,7 @@ h1:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(0, 0, 0, 0.3);
+  background-color: rgb(0, 0, 0, 0.4);
 }
 
 .modal-form {
@@ -75,23 +76,35 @@ h1:hover {
   transform: translate(-50%, -50%); 
   display: flex;
   justify-content: center;
-  width: 400px;
+  width: 350px;
   height: 200px;
-  border: 1px solid black;
   background-color: whitesmoke;
   border-radius: 5px;
 }
 
 #game-over-msg {
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 1px;
-  margin: 50px
+  margin: 70px 50px 30px;
 }
 
 #replay {
   display: block;
   margin: 20px auto;
+  padding: 6px 8px;
+  font-size: 12px;
+  color: rgb(104, 104, 104);
+  letter-spacing: 0.5px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+#replay:hover {
+  color: rgb(80, 80, 80);
+  background-color: rgb(222, 222, 222);
+  border: 1px solid gray;
+  transition: all 0.2s;
 }
 
 .is-open {
